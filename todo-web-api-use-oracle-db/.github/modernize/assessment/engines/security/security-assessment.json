@@ -1,0 +1,268 @@
+{
+  "GeneratedAt": "2026-05-18T03:16:24.0000000Z",
+  "ProjectPath": ".",
+  "Summary": {
+    "TotalFindings": 19,
+    "CveCount": 17,
+    "CweCount": 2,
+    "BySeverity": {
+      "mandatory": 17,
+      "optional": 2,
+      "potential": 0
+    },
+    "ByCategory": {
+      "CVE": 17,
+      "Credentials & Secrets": 2
+    },
+    "TotalRulesAssessed": 59,
+    "RulesPassed": 57
+  },
+  "CveFindings": [
+    {
+      "Id": "CVE-2026-34483",
+      "Name": "Apache Tomcat has an Improper Encoding or Escaping of Output vulnerability in the JsonAccessLogValve",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-34483](https://github.com/advisories/GHSA-rv64-5gf8-9qq8): Apache Tomcat has an Improper Encoding or Escaping of Output vulnerability in the JsonAccessLogValve\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (>= 9.0.40, < 9.0.116) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 10.1.0-M1, < 10.1.54) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 11.0.0-M1, < 11.0.21) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 9.0.40, < 9.0.116) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 10.1.0-M1, < 10.1.54) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 11.0.0-M1, < 11.0.21) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.40, < 9.0.116) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.54) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.21) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.54 or later\n  - Upgrade to patched version 11.0.21 or later\n  - Upgrade to patched version 9.0.116 or later",
+      "Files": [
+        "pom.xml",
+        "pom.xml:25"
+      ],
+      "Explanation": "[CVE-2026-34483](https://github.com/advisories/GHSA-rv64-5gf8-9qq8): Apache Tomcat has an Improper Encoding or Escaping of Output vulnerability in the JsonAccessLogValve\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (>= 9.0.40, < 9.0.116) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 10.1.0-M1, < 10.1.54) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 11.0.0-M1, < 11.0.21) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 9.0.40, < 9.0.116) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 10.1.0-M1, < 10.1.54) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 11.0.0-M1, < 11.0.21) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.40, < 9.0.116) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.54) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.21) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.54 or later\n  - Upgrade to patched version 11.0.21 or later\n  - Upgrade to patched version 9.0.116 or later"
+    },
+    {
+      "Id": "CVE-2026-34487",
+      "Name": "Apache Tomcat vulnerable to Insertion of Sensitive Information into Log File",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-34487](https://github.com/advisories/GHSA-x4m4-345f-5h5g): Apache Tomcat vulnerable to Insertion of Sensitive Information into Log File\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (>= 9.0.13, < 9.0.117) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 10.1.0-M1, < 10.1.54) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 11.0.0-M1, < 11.0.21) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 9.0.13, < 9.0.117) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 10.1.0-M1, < 10.1.54) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 11.0.0-M1, < 11.0.21) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.13, < 9.0.117) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.54) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.21) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.54 or later\n  - Upgrade to patched version 11.0.21 or later\n  - Upgrade to patched version 9.0.117 or later",
+      "Files": [
+        "pom.xml",
+        "pom.xml:25"
+      ],
+      "Explanation": "[CVE-2026-34487](https://github.com/advisories/GHSA-x4m4-345f-5h5g): Apache Tomcat vulnerable to Insertion of Sensitive Information into Log File\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (>= 9.0.13, < 9.0.117) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 10.1.0-M1, < 10.1.54) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 11.0.0-M1, < 11.0.21) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 9.0.13, < 9.0.117) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 10.1.0-M1, < 10.1.54) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 11.0.0-M1, < 11.0.21) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.13, < 9.0.117) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.54) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.21) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.54 or later\n  - Upgrade to patched version 11.0.21 or later\n  - Upgrade to patched version 9.0.117 or later"
+    },
+    {
+      "Id": "CVE-2026-29145",
+      "Name": "Apache Tomcat: CLIENT_CERT authentication does not fail as expected",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-29145](https://github.com/advisories/GHSA-95jq-rwvf-vjx4): Apache Tomcat: CLIENT_CERT authentication does not fail as expected\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (>= 9.0.83, < 9.0.116) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 10.1.0-M7, < 10.1.53) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 11.0.0-M1, < 11.0.20) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 9.0.83, < 9.0.116) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 10.1.0-M7, < 10.1.53) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 11.0.0-M1, < 11.0.20) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.83, < 9.0.116) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M7, < 10.1.53) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.20) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.53 or later\n  - Upgrade to patched version 11.0.20 or later\n  - Upgrade to patched version 9.0.116 or later",
+      "Files": [
+        "pom.xml",
+        "pom.xml:25"
+      ],
+      "Explanation": "[CVE-2026-29145](https://github.com/advisories/GHSA-95jq-rwvf-vjx4): Apache Tomcat: CLIENT_CERT authentication does not fail as expected\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (>= 9.0.83, < 9.0.116) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 10.1.0-M7, < 10.1.53) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 11.0.0-M1, < 11.0.20) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 9.0.83, < 9.0.116) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 10.1.0-M7, < 10.1.53) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 11.0.0-M1, < 11.0.20) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.83, < 9.0.116) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M7, < 10.1.53) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.20) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.53 or later\n  - Upgrade to patched version 11.0.20 or later\n  - Upgrade to patched version 9.0.116 or later"
+    },
+    {
+      "Id": "CVE-2026-24734",
+      "Name": "Apache Tomcat has an Improper Input Validation vulnerability",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-24734](https://github.com/advisories/GHSA-mgp5-rv84-w37q): Apache Tomcat has an Improper Input Validation vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-coyote (>= 11.0.0-M1, < 11.0.18) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 10.1.0-M7, < 10.1.52) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 9.0.83, < 9.0.115) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.18) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M7, < 10.1.52) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.83, < 9.0.115) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.52 or later\n  - Upgrade to patched version 11.0.18 or later\n  - Upgrade to patched version 9.0.115 or later",
+      "Files": [
+        "pom.xml",
+        "pom.xml:25"
+      ],
+      "Explanation": "[CVE-2026-24734](https://github.com/advisories/GHSA-mgp5-rv84-w37q): Apache Tomcat has an Improper Input Validation vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-coyote (>= 11.0.0-M1, < 11.0.18) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 10.1.0-M7, < 10.1.52) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 9.0.83, < 9.0.115) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.18) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M7, < 10.1.52) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.83, < 9.0.115) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.52 or later\n  - Upgrade to patched version 11.0.18 or later\n  - Upgrade to patched version 9.0.115 or later"
+    },
+    {
+      "Id": "CVE-2025-55752",
+      "Name": "Apache Tomcat Vulnerable to Relative Path Traversal",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2025-55752](https://github.com/advisories/GHSA-wmwf-9ccg-fff5): Apache Tomcat Vulnerable to Relative Path Traversal\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat (>= 11.0.0-M1, < 11.0.11) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 10.1.0-M1, < 10.1.45) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 11.0.0-M1, < 11.0.11) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 10.1.0-M1, < 10.1.45) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.11) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.45) (declared via pom.xml:25)\n  - org.apache.tomcat:tomcat (>= 9.0.0-M11, < 9.0.109) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 9.0.0-M11, < 9.0.109) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.0-M11, < 9.0.109) (declared via pom.xml:25)\n  - org.apache.tomcat:tomcat (>= 8.5.6, <= 8.5.100) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 8.5.6, <= 8.5.100) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 8.5.6, <= 8.5.100) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.45 or later\n  - Upgrade to patched version 11.0.11 or later\n  - Upgrade to patched version 9.0.109 or later",
+      "Files": [
+        "pom.xml",
+        "pom.xml:25"
+      ],
+      "Explanation": "[CVE-2025-55752](https://github.com/advisories/GHSA-wmwf-9ccg-fff5): Apache Tomcat Vulnerable to Relative Path Traversal\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat (>= 11.0.0-M1, < 11.0.11) (declared via pom.xml)\n  - org.apache.tomcat:tomcat (>= 10.1.0-M1, < 10.1.45) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 11.0.0-M1, < 11.0.11) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 10.1.0-M1, < 10.1.45) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.11) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.45) (declared via pom.xml:25)\n  - org.apache.tomcat:tomcat (>= 9.0.0-M11, < 9.0.109) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 9.0.0-M11, < 9.0.109) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.0-M11, < 9.0.109) (declared via pom.xml:25)\n  - org.apache.tomcat:tomcat (>= 8.5.6, <= 8.5.100) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 8.5.6, <= 8.5.100) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 8.5.6, <= 8.5.100) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.45 or later\n  - Upgrade to patched version 11.0.11 or later\n  - Upgrade to patched version 9.0.109 or later"
+    },
+    {
+      "Id": "CVE-2025-48989",
+      "Name": "Apache Tomcat Improper Resource Shutdown or Release vulnerability",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2025-48989](https://github.com/advisories/GHSA-gqp3-2cvr-x8m3): Apache Tomcat Improper Resource Shutdown or Release vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-coyote (>= 11.0.0-M1, < 11.0.10) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 10.1.0-M1, < 10.1.44) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 9.0.0.M1, < 9.0.108) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.10) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.44) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.0.M1, < 9.0.108) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.44 or later\n  - Upgrade to patched version 11.0.10 or later\n  - Upgrade to patched version 9.0.108 or later",
+      "Files": [
+        "pom.xml",
+        "pom.xml:25"
+      ],
+      "Explanation": "[CVE-2025-48989](https://github.com/advisories/GHSA-gqp3-2cvr-x8m3): Apache Tomcat Improper Resource Shutdown or Release vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-coyote (>= 11.0.0-M1, < 11.0.10) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 10.1.0-M1, < 10.1.44) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 9.0.0.M1, < 9.0.108) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.10) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.44) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.0.M1, < 9.0.108) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.44 or later\n  - Upgrade to patched version 11.0.10 or later\n  - Upgrade to patched version 9.0.108 or later"
+    },
+    {
+      "Id": "CVE-2025-53506",
+      "Name": "Apache Tomcat Coyote vulnerable to Denial of Service via excessive HTTP/2 streams",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2025-53506](https://github.com/advisories/GHSA-25xr-qj8w-c4vf): Apache Tomcat Coyote vulnerable to Denial of Service via excessive HTTP/2 streams\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-coyote (>= 11.0.0-M1, < 11.0.9) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 10.1.0-M1, < 10.1.43) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 9.0.0.M1, < 9.0.107) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 8.5.0, <= 8.5.100) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 8.5.0, <= 8.5.100) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.0.M1, < 9.0.107) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.43) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.9) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.43 or later\n  - Upgrade to patched version 11.0.9 or later\n  - Upgrade to patched version 9.0.107 or later",
+      "Files": [
+        "pom.xml",
+        "pom.xml:25"
+      ],
+      "Explanation": "[CVE-2025-53506](https://github.com/advisories/GHSA-25xr-qj8w-c4vf): Apache Tomcat Coyote vulnerable to Denial of Service via excessive HTTP/2 streams\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-coyote (>= 11.0.0-M1, < 11.0.9) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 10.1.0-M1, < 10.1.43) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 9.0.0.M1, < 9.0.107) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 8.5.0, <= 8.5.100) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 8.5.0, <= 8.5.100) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.0.M1, < 9.0.107) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.43) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.9) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.43 or later\n  - Upgrade to patched version 11.0.9 or later\n  - Upgrade to patched version 9.0.107 or later"
+    },
+    {
+      "Id": "CVE-2025-52520",
+      "Name": "Apache Tomcat Catalina is vulnerable to DoS attack through bypassing of size limits",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2025-52520](https://github.com/advisories/GHSA-wr62-c79q-cv37): Apache Tomcat Catalina is vulnerable to DoS attack through bypassing of size limits\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (>= 11.0.0-M1, < 11.0.9) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 10.1.0-M1, < 10.1.43) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 9.0.0.M1, < 9.0.107) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 8.5.0, <= 8.5.100) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.9) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.43) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.0.M1, < 9.0.107) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 8.5.0, <= 8.5.100) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.43 or later\n  - Upgrade to patched version 11.0.9 or later\n  - Upgrade to patched version 9.0.107 or later",
+      "Files": [
+        "pom.xml",
+        "pom.xml:25"
+      ],
+      "Explanation": "[CVE-2025-52520](https://github.com/advisories/GHSA-wr62-c79q-cv37): Apache Tomcat Catalina is vulnerable to DoS attack through bypassing of size limits\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (>= 11.0.0-M1, < 11.0.9) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 10.1.0-M1, < 10.1.43) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 9.0.0.M1, < 9.0.107) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 8.5.0, <= 8.5.100) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.9) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.43) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.0.M1, < 9.0.107) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 8.5.0, <= 8.5.100) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.43 or later\n  - Upgrade to patched version 11.0.9 or later\n  - Upgrade to patched version 9.0.107 or later"
+    },
+    {
+      "Id": "CVE-2025-48988",
+      "Name": "Apache Tomcat - DoS in multipart upload",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2025-48988](https://github.com/advisories/GHSA-h3gc-qfqq-6h8f): Apache Tomcat - DoS in multipart upload\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (>= 11.0.0-M1, <= 11.0.7) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 10.1.0-M1, <= 10.1.41) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 9.0.0.M1, <= 9.0.105) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, <= 11.0.7) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, <= 10.1.41) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.0.M1, <= 9.0.105) (declared via pom.xml:25)\n  - org.apache.tomcat:tomcat-catalina (>= 8.5.0, <= 8.5.100) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 8.5.0, <= 8.5.100) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.42 or later\n  - Upgrade to patched version 11.0.8 or later\n  - Upgrade to patched version 9.0.106 or later",
+      "Files": [
+        "pom.xml",
+        "pom.xml:25"
+      ],
+      "Explanation": "[CVE-2025-48988](https://github.com/advisories/GHSA-h3gc-qfqq-6h8f): Apache Tomcat - DoS in multipart upload\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (>= 11.0.0-M1, <= 11.0.7) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 10.1.0-M1, <= 10.1.41) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 9.0.0.M1, <= 9.0.105) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, <= 11.0.7) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, <= 10.1.41) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.0.M1, <= 9.0.105) (declared via pom.xml:25)\n  - org.apache.tomcat:tomcat-catalina (>= 8.5.0, <= 8.5.100) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 8.5.0, <= 8.5.100) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.42 or later\n  - Upgrade to patched version 11.0.8 or later\n  - Upgrade to patched version 9.0.106 or later"
+    },
+    {
+      "Id": "CVE-2025-22235",
+      "Name": "Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2025-22235](https://github.com/advisories/GHSA-rc42-6c7j-7h5r): Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot (<= 2.7.24.2) (declared via pom.xml:57)\n  - org.springframework.boot:spring-boot (>= 3.1.0, <= 3.1.15.2) (declared via pom.xml:57)\n  - org.springframework.boot:spring-boot (>= 3.2.0, <= 3.2.13.2) (declared via pom.xml:57)\n  - org.springframework.boot:spring-boot (>= 3.3.0, <= 3.3.10) (declared via pom.xml:57)\n  - org.springframework.boot:spring-boot (>= 3.4.0, <= 3.4.4) (declared via pom.xml:57)\n\nRecommended fix:\n  - Upgrade to patched version 3.3.11 or later\n  - Upgrade to patched version 3.4.5 or later",
+      "Files": [
+        "pom.xml:57"
+      ],
+      "Explanation": "[CVE-2025-22235](https://github.com/advisories/GHSA-rc42-6c7j-7h5r): Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot (<= 2.7.24.2) (declared via pom.xml:57)\n  - org.springframework.boot:spring-boot (>= 3.1.0, <= 3.1.15.2) (declared via pom.xml:57)\n  - org.springframework.boot:spring-boot (>= 3.2.0, <= 3.2.13.2) (declared via pom.xml:57)\n  - org.springframework.boot:spring-boot (>= 3.3.0, <= 3.3.10) (declared via pom.xml:57)\n  - org.springframework.boot:spring-boot (>= 3.4.0, <= 3.4.4) (declared via pom.xml:57)\n\nRecommended fix:\n  - Upgrade to patched version 3.3.11 or later\n  - Upgrade to patched version 3.4.5 or later"
+    },
+    {
+      "Id": "CVE-2025-24813",
+      "Name": "Apache Tomcat: Potential RCE and/or information disclosure and/or information corruption with partial PUT",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2025-24813](https://github.com/advisories/GHSA-83qj-6fr2-vhqg): Apache Tomcat: Potential RCE and/or information disclosure and/or information corruption with partial PUT\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (>= 11.0.0-M1, < 11.0.3) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 10.1.0-M1, < 10.1.35) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 9.0.0.M1, < 9.0.99) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.3) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.35) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.0.M1, < 9.0.99) (declared via pom.xml:25)\n  - org.apache.tomcat:tomcat-catalina (>= 8.5.0, <= 8.5.100) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 8.5.0, <= 8.5.100) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.35 or later\n  - Upgrade to patched version 11.0.3 or later\n  - Upgrade to patched version 9.0.99 or later",
+      "Files": [
+        "pom.xml",
+        "pom.xml:25"
+      ],
+      "Explanation": "[CVE-2025-24813](https://github.com/advisories/GHSA-83qj-6fr2-vhqg): Apache Tomcat: Potential RCE and/or information disclosure and/or information corruption with partial PUT\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (>= 11.0.0-M1, < 11.0.3) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 10.1.0-M1, < 10.1.35) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 9.0.0.M1, < 9.0.99) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.3) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.35) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.0.M1, < 9.0.99) (declared via pom.xml:25)\n  - org.apache.tomcat:tomcat-catalina (>= 8.5.0, <= 8.5.100) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 8.5.0, <= 8.5.100) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.35 or later\n  - Upgrade to patched version 11.0.3 or later\n  - Upgrade to patched version 9.0.99 or later"
+    },
+    {
+      "Id": "CVE-2024-56337",
+      "Name": "Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2024-56337](https://github.com/advisories/GHSA-27hp-xhwr-wr2m): Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (>= 11.0.0-M1, < 11.0.2) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 10.1.0-M1, < 10.1.34) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-embed-core (>= 9.0.0.M1, < 9.0.98) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.2) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.34) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.0.M1, < 9.0.98) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.34 or later\n  - Upgrade to patched version 11.0.2 or later\n  - Upgrade to patched version 9.0.98 or later",
+      "Files": [
+        "pom.xml",
+        "pom.xml:25"
+      ],
+      "Explanation": "[CVE-2024-56337](https://github.com/advisories/GHSA-27hp-xhwr-wr2m): Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (>= 11.0.0-M1, < 11.0.2) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 10.1.0-M1, < 10.1.34) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-embed-core (>= 9.0.0.M1, < 9.0.98) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.2) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.34) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.0.M1, < 9.0.98) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.34 or later\n  - Upgrade to patched version 11.0.2 or later\n  - Upgrade to patched version 9.0.98 or later"
+    },
+    {
+      "Id": "CVE-2024-38819",
+      "Name": "Spring Framework Path Traversal vulnerability",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2024-38819](https://github.com/advisories/GHSA-g5vr-rgqm-vf78): Spring Framework Path Traversal vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webflux (>= 6.1.0, < 6.1.14) (declared via pom.xml)\n  - org.springframework:spring-webmvc (>= 6.1.0, < 6.1.14) (declared via pom.xml:25)\n  - org.springframework:spring-webflux (<= 5.3.39) (declared via pom.xml)\n  - org.springframework:spring-webmvc (<= 5.3.39) (declared via pom.xml:25)\n  - org.springframework:spring-webflux (>= 6.0.0, <= 6.0.23) (declared via pom.xml)\n  - org.springframework:spring-webmvc (>= 6.0.0, <= 6.0.23) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 6.1.14 or later",
+      "Files": [
+        "pom.xml",
+        "pom.xml:25"
+      ],
+      "Explanation": "[CVE-2024-38819](https://github.com/advisories/GHSA-g5vr-rgqm-vf78): Spring Framework Path Traversal vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webflux (>= 6.1.0, < 6.1.14) (declared via pom.xml)\n  - org.springframework:spring-webmvc (>= 6.1.0, < 6.1.14) (declared via pom.xml:25)\n  - org.springframework:spring-webflux (<= 5.3.39) (declared via pom.xml)\n  - org.springframework:spring-webmvc (<= 5.3.39) (declared via pom.xml:25)\n  - org.springframework:spring-webflux (>= 6.0.0, <= 6.0.23) (declared via pom.xml)\n  - org.springframework:spring-webmvc (>= 6.0.0, <= 6.0.23) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 6.1.14 or later"
+    },
+    {
+      "Id": "CVE-2024-50379",
+      "Name": "Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2024-50379](https://github.com/advisories/GHSA-5j33-cvvr-w245): Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (>= 11.0.0-M1, < 11.0.2) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 10.1.0-M1, < 10.1.34) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 9.0.0.M1, < 9.0.98) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.2) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.34) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.0.M1, < 9.0.98) (declared via pom.xml:25)\n  - org.apache.tomcat:tomcat-catalina (>= 8.5.0, <= 8.5.100) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 8.5.0, <= 8.5.100) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.34 or later\n  - Upgrade to patched version 11.0.2 or later\n  - Upgrade to patched version 9.0.98 or later",
+      "Files": [
+        "pom.xml",
+        "pom.xml:25"
+      ],
+      "Explanation": "[CVE-2024-50379](https://github.com/advisories/GHSA-5j33-cvvr-w245): Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (>= 11.0.0-M1, < 11.0.2) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 10.1.0-M1, < 10.1.34) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-catalina (>= 9.0.0.M1, < 9.0.98) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.2) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.34) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.0.M1, < 9.0.98) (declared via pom.xml:25)\n  - org.apache.tomcat:tomcat-catalina (>= 8.5.0, <= 8.5.100) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 8.5.0, <= 8.5.100) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.34 or later\n  - Upgrade to patched version 11.0.2 or later\n  - Upgrade to patched version 9.0.98 or later"
+    },
+    {
+      "Id": "CVE-2024-38816",
+      "Name": "Path traversal vulnerability in functional web frameworks",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2024-38816](https://github.com/advisories/GHSA-cx7f-g6mp-7hqm): Path traversal vulnerability in functional web frameworks\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webmvc (>= 6.1.0, < 6.1.13) (declared via pom.xml:25)\n  - org.springframework:spring-webflux (>= 6.1.0, < 6.1.13) (declared via pom.xml)\n  - org.springframework:spring-webmvc (>= 6.0.0, <= 6.0.23) (declared via pom.xml:25)\n  - org.springframework:spring-webflux (>= 6.0.0, <= 6.0.23) (declared via pom.xml)\n  - org.springframework:spring-webmvc (>= 5.3.0, <= 5.3.39) (declared via pom.xml:25)\n  - org.springframework:spring-webflux (>= 5.3.0, <= 5.3.39) (declared via pom.xml)\n\nRecommended fix:\n  - Upgrade to patched version 6.1.13 or later",
+      "Files": [
+        "pom.xml",
+        "pom.xml:25"
+      ],
+      "Explanation": "[CVE-2024-38816](https://github.com/advisories/GHSA-cx7f-g6mp-7hqm): Path traversal vulnerability in functional web frameworks\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webmvc (>= 6.1.0, < 6.1.13) (declared via pom.xml:25)\n  - org.springframework:spring-webflux (>= 6.1.0, < 6.1.13) (declared via pom.xml)\n  - org.springframework:spring-webmvc (>= 6.0.0, <= 6.0.23) (declared via pom.xml:25)\n  - org.springframework:spring-webflux (>= 6.0.0, <= 6.0.23) (declared via pom.xml)\n  - org.springframework:spring-webmvc (>= 5.3.0, <= 5.3.39) (declared via pom.xml:25)\n  - org.springframework:spring-webflux (>= 5.3.0, <= 5.3.39) (declared via pom.xml)\n\nRecommended fix:\n  - Upgrade to patched version 6.1.13 or later"
+    },
+    {
+      "Id": "CVE-2024-34750",
+      "Name": "Apache Tomcat - Denial of Service",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2024-34750](https://github.com/advisories/GHSA-wm9w-rjj3-j356): Apache Tomcat - Denial of Service\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.0-M21) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.25) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.0-M1, < 9.0.90) (declared via pom.xml:25)\n  - org.apache.tomcat:tomcat-coyote (>= 11.0.0-M1, < 11.0.0-M21) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 10.1.0-M1, < 10.1.25) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 9.0.0-M1, < 9.0.90) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 8.5.0, <= 8.5.100) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 8.5.0, <= 8.5.100) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.25 or later\n  - Upgrade to patched version 11.0.0-M21 or later\n  - Upgrade to patched version 9.0.90 or later",
+      "Files": [
+        "pom.xml",
+        "pom.xml:25"
+      ],
+      "Explanation": "[CVE-2024-34750](https://github.com/advisories/GHSA-wm9w-rjj3-j356): Apache Tomcat - Denial of Service\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 11.0.0-M1, < 11.0.0-M21) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 10.1.0-M1, < 10.1.25) (declared via pom.xml:25)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 9.0.0-M1, < 9.0.90) (declared via pom.xml:25)\n  - org.apache.tomcat:tomcat-coyote (>= 11.0.0-M1, < 11.0.0-M21) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 10.1.0-M1, < 10.1.25) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 9.0.0-M1, < 9.0.90) (declared via pom.xml)\n  - org.apache.tomcat:tomcat-coyote (>= 8.5.0, <= 8.5.100) (declared via pom.xml)\n  - org.apache.tomcat.embed:tomcat-embed-core (>= 8.5.0, <= 8.5.100) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 10.1.25 or later\n  - Upgrade to patched version 11.0.0-M21 or later\n  - Upgrade to patched version 9.0.90 or later"
+    },
+    {
+      "Id": "CVE-2024-22262",
+      "Name": "Spring Framework URL Parsing with Host Validation",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2024-22262](https://github.com/advisories/GHSA-2wrp-6fg6-hmc5): Spring Framework URL Parsing with Host Validation\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web (< 5.3.34) (declared via pom.xml:25)\n  - org.springframework:spring-web (>= 6.0.0, < 6.0.19) (declared via pom.xml:25)\n  - org.springframework:spring-web (>= 6.1.0, < 6.1.6) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 5.3.34 or later\n  - Upgrade to patched version 6.0.19 or later\n  - Upgrade to patched version 6.1.6 or later",
+      "Files": [
+        "pom.xml:25"
+      ],
+      "Explanation": "[CVE-2024-22262](https://github.com/advisories/GHSA-2wrp-6fg6-hmc5): Spring Framework URL Parsing with Host Validation\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web (< 5.3.34) (declared via pom.xml:25)\n  - org.springframework:spring-web (>= 6.0.0, < 6.0.19) (declared via pom.xml:25)\n  - org.springframework:spring-web (>= 6.1.0, < 6.1.6) (declared via pom.xml:25)\n\nRecommended fix:\n  - Upgrade to patched version 5.3.34 or later\n  - Upgrade to patched version 6.0.19 or later\n  - Upgrade to patched version 6.1.6 or later"
+    }
+  ],
+  "CweFindings": [
+    {
+      "Id": "CWE-259",
+      "Name": "Use of Hard-coded Password",
+      "Category": "Credentials & Secrets",
+      "Severity": "optional",
+      "StoryPoint": 5,
+      "Description": "The product contains a hard-coded password, which it uses for its own inbound authentication or for outbound communication to external components.",
+      "Files": [
+        "src/main/resources/application.yaml:5"
+      ],
+      "Explanation": "Spring datasource configuration contains a hard-coded database password (`password: oracle`) in `application.yaml` under `spring.datasource`."
+    },
+    {
+      "Id": "CWE-798",
+      "Name": "Use of Hard-coded Credentials",
+      "Category": "Credentials & Secrets",
+      "Severity": "optional",
+      "StoryPoint": 5,
+      "Description": "The product contains hard-coded credentials, such as a password or cryptographic key.",
+      "Files": [
+        "src/main/resources/application.yaml:4",
+        "src/main/resources/application.yaml:5"
+      ],
+      "Explanation": "Datasource credentials are hard-coded in configuration (`username: system`, `password: oracle`) in `application.yaml`."
+    }
+  ]
+}
