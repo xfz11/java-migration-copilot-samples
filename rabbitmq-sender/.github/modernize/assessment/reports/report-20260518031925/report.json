@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "id": "20260518031925",
+    "generated_at": "2026-05-18T03:19:25.0000000Z",
+    "note": "Security-only report (AppCAT was not run or failed)"
+  },
+  "security": [
+    {
+      "id": "CVE-2026-42587",
+      "title": "Netty: HttpContentDecompressor maxAllocation bypass when Content-Encoding set to br/zstd/snappy leads to decompression bomb DoS",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-42587](https://github.com/advisories/GHSA-f6hv-jmp6-3vwv): Netty: HttpContentDecompressor maxAllocation bypass when Content-Encoding set to br/zstd/snappy leads to decompression bomb DoS\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http:4.2.13.Final or later\n  - io.netty:netty-codec-http2:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http2:4.2.13.Final or later\n  - io.netty:netty-codec-http:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http:4.1.133.Final or later\n  - io.netty:netty-codec-http2:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http2:4.1.133.Final or later\n\nRecommended fix:\n  - Upgrade io.netty:netty-codec-http to 4.2.13.Final or later\n  - Upgrade io.netty:netty-codec-http2 to 4.2.13.Final or later\n  - Upgrade io.netty:netty-codec-http to 4.1.133.Final or later\n  - Upgrade io.netty:netty-codec-http2 to 4.1.133.Final or later",
+      "evidence": {
+        "files": [
+          "pom.xml:37"
+        ],
+        "explanation": "[CVE-2026-42587](https://github.com/advisories/GHSA-f6hv-jmp6-3vwv): Netty: HttpContentDecompressor maxAllocation bypass when Content-Encoding set to br/zstd/snappy leads to decompression bomb DoS\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http:4.2.13.Final or later\n  - io.netty:netty-codec-http2:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http2:4.2.13.Final or later\n  - io.netty:netty-codec-http:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http:4.1.133.Final or later\n  - io.netty:netty-codec-http2:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http2:4.1.133.Final or later\n\nRecommended fix:\n  - Upgrade io.netty:netty-codec-http to 4.2.13.Final or later\n  - Upgrade io.netty:netty-codec-http2 to 4.2.13.Final or later\n  - Upgrade io.netty:netty-codec-http to 4.1.133.Final or later\n  - Upgrade io.netty:netty-codec-http2 to 4.1.133.Final or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-42584",
+      "title": "Netty has HttpClientCodec response desynchronization",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-42584](https://github.com/advisories/GHSA-57rv-r2g8-2cj3): Netty has HttpClientCodec response desynchronization\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http:4.2.13.Final or later\n  - io.netty:netty-codec-http:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http:4.1.133.Final or later\n\nRecommended fix:\n  - Upgrade io.netty:netty-codec-http to 4.2.13.Final or later\n  - Upgrade io.netty:netty-codec-http to 4.1.133.Final or later",
+      "evidence": {
+        "files": [
+          "pom.xml:37"
+        ],
+        "explanation": "[CVE-2026-42584](https://github.com/advisories/GHSA-57rv-r2g8-2cj3): Netty has HttpClientCodec response desynchronization\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http:4.2.13.Final or later\n  - io.netty:netty-codec-http:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http:4.1.133.Final or later\n\nRecommended fix:\n  - Upgrade io.netty:netty-codec-http to 4.2.13.Final or later\n  - Upgrade io.netty:netty-codec-http to 4.1.133.Final or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-42583",
+      "title": "Netty Lz4FrameDecoder is vulnerable to resource exhaustion ",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-42583](https://github.com/advisories/GHSA-mj4r-2hfc-f8p6): Netty Lz4FrameDecoder is vulnerable to resource exhaustion \n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec:4.1.133.Final or later\n\nRecommended fix:\n  - Upgrade io.netty:netty-codec to 4.1.133.Final or later",
+      "evidence": {
+        "files": [
+          "pom.xml:37"
+        ],
+        "explanation": "[CVE-2026-42583](https://github.com/advisories/GHSA-mj4r-2hfc-f8p6): Netty Lz4FrameDecoder is vulnerable to resource exhaustion \n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec:4.1.133.Final or later\n\nRecommended fix:\n  - Upgrade io.netty:netty-codec to 4.1.133.Final or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-42579",
+      "title": "Netty has a DNS Codec Input Validation Bypass (Encoder + Decoder)",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-42579](https://github.com/advisories/GHSA-cm33-6792-r9fm): Netty has a DNS Codec Input Validation Bypass (Encoder + Decoder)\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-dns:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-dns:4.2.13.Final or later\n  - io.netty:netty-codec-dns:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-dns:4.1.133.Final or later\n\nRecommended fix:\n  - Upgrade io.netty:netty-codec-dns to 4.2.13.Final or later\n  - Upgrade io.netty:netty-codec-dns to 4.1.133.Final or later",
+      "evidence": {
+        "files": [
+          "pom.xml:37"
+        ],
+        "explanation": "[CVE-2026-42579](https://github.com/advisories/GHSA-cm33-6792-r9fm): Netty has a DNS Codec Input Validation Bypass (Encoder + Decoder)\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-dns:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-dns:4.2.13.Final or later\n  - io.netty:netty-codec-dns:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-dns:4.1.133.Final or later\n\nRecommended fix:\n  - Upgrade io.netty:netty-codec-dns to 4.2.13.Final or later\n  - Upgrade io.netty:netty-codec-dns to 4.1.133.Final or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-33871",
+      "title": "Netty HTTP/2 CONTINUATION Frame Flood DoS via Zero-Byte Frame Bypass",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-33871](https://github.com/advisories/GHSA-w9fj-cfpg-grvv): Netty HTTP/2 CONTINUATION Frame Flood DoS via Zero-Byte Frame Bypass\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http2:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http2:4.1.132.Final or later\n  - io.netty:netty-codec-http2:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http2:4.2.11.Final or later\n\nRecommended fix:\n  - Upgrade io.netty:netty-codec-http2 to 4.1.132.Final or later\n  - Upgrade io.netty:netty-codec-http2 to 4.2.11.Final or later",
+      "evidence": {
+        "files": [
+          "pom.xml:37"
+        ],
+        "explanation": "[CVE-2026-33871](https://github.com/advisories/GHSA-w9fj-cfpg-grvv): Netty HTTP/2 CONTINUATION Frame Flood DoS via Zero-Byte Frame Bypass\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http2:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http2:4.1.132.Final or later\n  - io.netty:netty-codec-http2:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http2:4.2.11.Final or later\n\nRecommended fix:\n  - Upgrade io.netty:netty-codec-http2 to 4.1.132.Final or later\n  - Upgrade io.netty:netty-codec-http2 to 4.2.11.Final or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-33870",
+      "title": "Netty: HTTP Request Smuggling via Chunked Extension Quoted-String Parsing",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-33870](https://github.com/advisories/GHSA-pwqr-wmgm-9rr8): Netty: HTTP Request Smuggling via Chunked Extension Quoted-String Parsing\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http:4.1.132.Final or later\n  - io.netty:netty-codec-http:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http:4.2.10.Final or later\n\nRecommended fix:\n  - Upgrade io.netty:netty-codec-http to 4.1.132.Final or later\n  - Upgrade io.netty:netty-codec-http to 4.2.10.Final or later",
+      "evidence": {
+        "files": [
+          "pom.xml:37"
+        ],
+        "explanation": "[CVE-2026-33870](https://github.com/advisories/GHSA-pwqr-wmgm-9rr8): Netty: HTTP Request Smuggling via Chunked Extension Quoted-String Parsing\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http:4.1.132.Final or later\n  - io.netty:netty-codec-http:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http:4.2.10.Final or later\n\nRecommended fix:\n  - Upgrade io.netty:netty-codec-http to 4.1.132.Final or later\n  - Upgrade io.netty:netty-codec-http to 4.2.10.Final or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-55163",
+      "title": "Netty affected by MadeYouReset HTTP/2 DDoS vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-55163](https://github.com/advisories/GHSA-prj3-ccx8-p6x4): Netty affected by MadeYouReset HTTP/2 DDoS vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http2:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http2:4.2.4.Final or later\n  - io.netty:netty-codec-http2:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http2:4.1.124.Final or later\n\nRecommended fix:\n  - Upgrade io.netty:netty-codec-http2 to 4.2.4.Final or later\n  - Upgrade io.netty:netty-codec-http2 to 4.1.124.Final or later",
+      "evidence": {
+        "files": [
+          "pom.xml:37"
+        ],
+        "explanation": "[CVE-2025-55163](https://github.com/advisories/GHSA-prj3-ccx8-p6x4): Netty affected by MadeYouReset HTTP/2 DDoS vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http2:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http2:4.2.4.Final or later\n  - io.netty:netty-codec-http2:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-codec-http2:4.1.124.Final or later\n\nRecommended fix:\n  - Upgrade io.netty:netty-codec-http2 to 4.2.4.Final or later\n  - Upgrade io.netty:netty-codec-http2 to 4.1.124.Final or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-24970",
+      "title": "SslHandler doesn't correctly validate packets which can lead to native crash when using native SSLEngine",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-24970](https://github.com/advisories/GHSA-4g8c-wm8x-jfhw): SslHandler doesn't correctly validate packets which can lead to native crash when using native SSLEngine\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-handler:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-handler:4.1.118.Final or later\n\nRecommended fix:\n  - Upgrade io.netty:netty-handler to 4.1.118.Final or later",
+      "evidence": {
+        "files": [
+          "pom.xml:37"
+        ],
+        "explanation": "[CVE-2025-24970](https://github.com/advisories/GHSA-4g8c-wm8x-jfhw): SslHandler doesn't correctly validate packets which can lead to native crash when using native SSLEngine\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-handler:4.1.110.Final (transitive, pulled by direct dependency at pom.xml:37)\n    Recommended fix: upgrade to io.netty:netty-handler:4.1.118.Final or later\n\nRecommended fix:\n  - Upgrade io.netty:netty-handler to 4.1.118.Final or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-24400",
+      "title": "AssertJ has XML External Entity (XXE) vulnerability when parsing untrusted XML via isXmlEqualTo assertion",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-24400](https://github.com/advisories/GHSA-rqfh-9r24-8c9r): AssertJ has XML External Entity (XXE) vulnerability when parsing untrusted XML via isXmlEqualTo assertion\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.assertj:assertj-core:3.25.3 (transitive, pulled by direct dependency at pom.xml:49)\n    Recommended fix: upgrade to org.assertj:assertj-core:3.27.7 or later\n\nRecommended fix:\n  - Upgrade org.assertj:assertj-core to 3.27.7 or later",
+      "evidence": {
+        "files": [
+          "pom.xml:49"
+        ],
+        "explanation": "[CVE-2026-24400](https://github.com/advisories/GHSA-rqfh-9r24-8c9r): AssertJ has XML External Entity (XXE) vulnerability when parsing untrusted XML via isXmlEqualTo assertion\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.assertj:assertj-core:3.25.3 (transitive, pulled by direct dependency at pom.xml:49)\n    Recommended fix: upgrade to org.assertj:assertj-core:3.27.7 or later\n\nRecommended fix:\n  - Upgrade org.assertj:assertj-core to 3.27.7 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2024-57699",
+      "title": "Netplex Json-smart Uncontrolled Recursion vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2024-57699](https://github.com/advisories/GHSA-pq2g-wx69-c263): Netplex Json-smart Uncontrolled Recursion vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - net.minidev:json-smart:2.5.1 (transitive, pulled by direct dependency at pom.xml:49)\n    Recommended fix: upgrade to net.minidev:json-smart:2.5.2 or later\n\nRecommended fix:\n  - Upgrade net.minidev:json-smart to 2.5.2 or later",
+      "evidence": {
+        "files": [
+          "pom.xml:49"
+        ],
+        "explanation": "[CVE-2024-57699](https://github.com/advisories/GHSA-pq2g-wx69-c263): Netplex Json-smart Uncontrolled Recursion vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - net.minidev:json-smart:2.5.1 (transitive, pulled by direct dependency at pom.xml:49)\n    Recommended fix: upgrade to net.minidev:json-smart:2.5.2 or later\n\nRecommended fix:\n  - Upgrade net.minidev:json-smart to 2.5.2 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-40973",
+      "title": "Spring Boot accepts predictable temp directory without ownership verification",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-40973](https://github.com/advisories/GHSA-wwpq-f5c3-7hvx): Spring Boot accepts predictable temp directory without ownership verification\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n    Recommended fix: upgrade to org.springframework.boot:spring-boot:4.0.6 or later\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n    Recommended fix: upgrade to org.springframework.boot:spring-boot:3.5.14 or later\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n\nRecommended fix:\n  - Upgrade org.springframework.boot:spring-boot to 4.0.6 or later\n  - Upgrade org.springframework.boot:spring-boot to 3.5.14 or later",
+      "evidence": {
+        "files": [
+          "pom.xml:33"
+        ],
+        "explanation": "[CVE-2026-40973](https://github.com/advisories/GHSA-wwpq-f5c3-7hvx): Spring Boot accepts predictable temp directory without ownership verification\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n    Recommended fix: upgrade to org.springframework.boot:spring-boot:4.0.6 or later\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n    Recommended fix: upgrade to org.springframework.boot:spring-boot:3.5.14 or later\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n\nRecommended fix:\n  - Upgrade org.springframework.boot:spring-boot to 4.0.6 or later\n  - Upgrade org.springframework.boot:spring-boot to 3.5.14 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-41249",
+      "title": "Spring Framework annotation detection mechanism may result in improper authorization",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-41249](https://github.com/advisories/GHSA-jmp9-x22r-554x): Spring Framework annotation detection mechanism may result in improper authorization\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-core:6.1.8 (transitive, pulled by direct dependency at pom.xml:33)\n  - org.springframework:spring-core:6.1.8 (transitive, pulled by direct dependency at pom.xml:33)\n  - org.springframework:spring-core:6.1.8 (transitive, pulled by direct dependency at pom.xml:33)\n    Recommended fix: upgrade to org.springframework:spring-core:6.2.11 or later\n\nRecommended fix:\n  - Upgrade org.springframework:spring-core to 6.2.11 or later",
+      "evidence": {
+        "files": [
+          "pom.xml:33"
+        ],
+        "explanation": "[CVE-2025-41249](https://github.com/advisories/GHSA-jmp9-x22r-554x): Spring Framework annotation detection mechanism may result in improper authorization\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-core:6.1.8 (transitive, pulled by direct dependency at pom.xml:33)\n  - org.springframework:spring-core:6.1.8 (transitive, pulled by direct dependency at pom.xml:33)\n  - org.springframework:spring-core:6.1.8 (transitive, pulled by direct dependency at pom.xml:33)\n    Recommended fix: upgrade to org.springframework:spring-core:6.2.11 or later\n\nRecommended fix:\n  - Upgrade org.springframework:spring-core to 6.2.11 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-22235",
+      "title": "Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-22235](https://github.com/advisories/GHSA-rc42-6c7j-7h5r): Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n    Recommended fix: upgrade to org.springframework.boot:spring-boot:3.3.11 or later\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n    Recommended fix: upgrade to org.springframework.boot:spring-boot:3.4.5 or later\n\nRecommended fix:\n  - Upgrade org.springframework.boot:spring-boot to 3.3.11 or later\n  - Upgrade org.springframework.boot:spring-boot to 3.4.5 or later",
+      "evidence": {
+        "files": [
+          "pom.xml:33"
+        ],
+        "explanation": "[CVE-2025-22235](https://github.com/advisories/GHSA-rc42-6c7j-7h5r): Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n    Recommended fix: upgrade to org.springframework.boot:spring-boot:3.3.11 or later\n  - org.springframework.boot:spring-boot:3.3.0 (transitive, pulled by direct dependency at pom.xml:33)\n    Recommended fix: upgrade to org.springframework.boot:spring-boot:3.4.5 or later\n\nRecommended fix:\n  - Upgrade org.springframework.boot:spring-boot to 3.3.11 or later\n  - Upgrade org.springframework.boot:spring-boot to 3.4.5 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CWE-772",
+      "title": "Missing Release of Resource after Effective Lifetime",
+      "category": "Code Quality",
+      "severity": "potential",
+      "description": "The product does not release a resource after its effective lifetime has ended, i.e., after the resource is no longer needed.",
+      "evidence": {
+        "files": [
+          "src/main/java/com/example/messagingrabbitmq/MessagingRabbitmqApplication.java"
+        ],
+        "explanation": "In MessagingRabbitmqApplication.main() (line 21), a ConfigurableApplicationContext is obtained via SpringApplication.run() but is never explicitly closed after producer.run() completes (line 23). ConfigurableApplicationContext implements Closeable/AutoCloseable, and best practice requires using try-with-resources or explicitly calling close() after the resource's effective lifetime ends to ensure all managed resources (connections, threads, etc.) are properly released."
+      },
+      "storyPoint": 3
+    },
+    {
+      "id": "CWE-778",
+      "title": "Insufficient Logging",
+      "category": "Credentials & Secrets",
+      "severity": "potential",
+      "description": "When a security-critical event occurs, the product either does not record the event or omits important details about the event when logging it.",
+      "evidence": {
+        "files": [
+          "src/main/java/com/example/messagingrabbitmq/MessagingRabbitmqApplication.java",
+          "src/main/java/com/example/messagingrabbitmq/Producer.java"
+        ],
+        "explanation": "The application lacks a proper logging framework and does not log security-critical events. In MessagingRabbitmqApplication, the queue1() (line 39) and queue2() (line 48) methods silently swallow ResourceNotFoundException without any logging, preventing detection of queue access failures. In Producer.run(), message dispatch to Azure Service Bus is not surrounded by error handling or security event logging. The only output used is System.out.println, with no structured logging for authentication events, send failures, or operational errors."
+      },
+      "storyPoint": 3
+    }
+  ]
+}
