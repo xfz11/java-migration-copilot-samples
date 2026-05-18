@@ -1,0 +1,721 @@
+{
+  "metadata": {
+    "analysisStartTime": "2026-05-18T03:10:22Z",
+    "reportId": "20260518031022",
+    "workspacePath": "asset-manager",
+    "note": "Assessment skill executed for asset-manager; generated report artifact in this workspace."
+  },
+  "issues": [],
+  "security": [
+    {
+      "id": "CVE-2016-1000027",
+      "title": "Pivotal Spring Framework contains unsafe Java deserialization methods",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2016-1000027](https://github.com/advisories/GHSA-4wrc-f8pq-fpqp): Pivotal Spring Framework contains unsafe Java deserialization methods\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: < 6.0.0; first patched: 6.0.0)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2016-1000027](https://github.com/advisories/GHSA-4wrc-f8pq-fpqp): Pivotal Spring Framework contains unsafe Java deserialization methods\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: < 6.0.0; first patched: 6.0.0)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2022-1471",
+      "title": "SnakeYaml Constructor Deserialization Remote Code Execution",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2022-1471](https://github.com/advisories/GHSA-mjmj-j48q-9wg2): SnakeYaml Constructor Deserialization Remote Code Execution\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.yaml:snakeyaml:1.30 (declared at pom.xml; vulnerable range: <= 1.33; first patched: 2.0)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2022-1471](https://github.com/advisories/GHSA-mjmj-j48q-9wg2): SnakeYaml Constructor Deserialization Remote Code Execution\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.yaml:snakeyaml:1.30 (declared at pom.xml; vulnerable range: <= 1.33; first patched: 2.0)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2022-25857",
+      "title": "Uncontrolled Resource Consumption in snakeyaml",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2022-25857](https://github.com/advisories/GHSA-3mc7-4q67-w48m): Uncontrolled Resource Consumption in snakeyaml\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.yaml:snakeyaml:1.30 (declared at pom.xml; vulnerable range: < 1.31; first patched: 1.31)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2022-25857](https://github.com/advisories/GHSA-3mc7-4q67-w48m): Uncontrolled Resource Consumption in snakeyaml\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.yaml:snakeyaml:1.30 (declared at pom.xml; vulnerable range: < 1.31; first patched: 1.31)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2023-6378",
+      "title": "logback serialization vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2023-6378](https://github.com/advisories/GHSA-vmq6-5m68-f53m): logback serialization vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - ch.qos.logback:logback-classic:1.2.12 (declared at pom.xml; vulnerable range: >= 1.4.0, < 1.4.12; first patched: 1.4.12)\n  - ch.qos.logback:logback-core:1.2.12 (declared at pom.xml; vulnerable range: >= 1.4.0, < 1.4.12; first patched: 1.4.12)\n  - ch.qos.logback:logback-classic:1.2.12 (declared at pom.xml; vulnerable range: >= 1.3.0, < 1.3.12; first patched: 1.3.12)\n  - ch.qos.logback:logback-core:1.2.12 (declared at pom.xml; vulnerable range: >= 1.3.0, < 1.3.12; first patched: 1.3.12)\n  - ch.qos.logback:logback-core:1.2.12 (declared at pom.xml; vulnerable range: < 1.2.13; first patched: 1.2.13)\n  - ch.qos.logback:logback-classic:1.2.12 (declared at pom.xml; vulnerable range: < 1.2.13; first patched: 1.2.13)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2023-6378](https://github.com/advisories/GHSA-vmq6-5m68-f53m): logback serialization vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - ch.qos.logback:logback-classic:1.2.12 (declared at pom.xml; vulnerable range: >= 1.4.0, < 1.4.12; first patched: 1.4.12)\n  - ch.qos.logback:logback-core:1.2.12 (declared at pom.xml; vulnerable range: >= 1.4.0, < 1.4.12; first patched: 1.4.12)\n  - ch.qos.logback:logback-classic:1.2.12 (declared at pom.xml; vulnerable range: >= 1.3.0, < 1.3.12; first patched: 1.3.12)\n  - ch.qos.logback:logback-core:1.2.12 (declared at pom.xml; vulnerable range: >= 1.3.0, < 1.3.12; first patched: 1.3.12)\n  - ch.qos.logback:logback-core:1.2.12 (declared at pom.xml; vulnerable range: < 1.2.13; first patched: 1.2.13)\n  - ch.qos.logback:logback-classic:1.2.12 (declared at pom.xml; vulnerable range: < 1.2.13; first patched: 1.2.13)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2023-6481",
+      "title": "Logback is vulnerable to an attacker mounting a Denial-Of-Service attack by sending poisoned data",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2023-6481](https://github.com/advisories/GHSA-gm62-rw4g-vrc4): Logback is vulnerable to an attacker mounting a Denial-Of-Service attack by sending poisoned data\n\nSeverity: HIGH\n\nAffected dependencies:\n  - ch.qos.logback:logback-core:1.2.12 (declared at pom.xml; vulnerable range: = 1.4.13; first patched: 1.4.14)\n  - ch.qos.logback:logback-core:1.2.12 (declared at pom.xml; vulnerable range: = 1.3.13; first patched: 1.3.14)\n  - ch.qos.logback:logback-core:1.2.12 (declared at pom.xml; vulnerable range: = 1.2.12; first patched: 1.2.13)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2023-6481](https://github.com/advisories/GHSA-gm62-rw4g-vrc4): Logback is vulnerable to an attacker mounting a Denial-Of-Service attack by sending poisoned data\n\nSeverity: HIGH\n\nAffected dependencies:\n  - ch.qos.logback:logback-core:1.2.12 (declared at pom.xml; vulnerable range: = 1.4.13; first patched: 1.4.14)\n  - ch.qos.logback:logback-core:1.2.12 (declared at pom.xml; vulnerable range: = 1.3.13; first patched: 1.3.14)\n  - ch.qos.logback:logback-core:1.2.12 (declared at pom.xml; vulnerable range: = 1.2.12; first patched: 1.2.13)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2024-1597",
+      "title": "org.postgresql:postgresql vulnerable to SQL Injection via line comment generation",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2024-1597](https://github.com/advisories/GHSA-24rp-q3w6-vc56): org.postgresql:postgresql vulnerable to SQL Injection via line comment generation\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.postgresql:postgresql:42.3.8 (declared at worker/pom.xml:51; vulnerable range: < 42.2.28; first patched: 42.2.28)\n  - org.postgresql:postgresql:42.3.8 (declared at worker/pom.xml:51; vulnerable range: >= 42.3.0, < 42.3.9; first patched: 42.3.9)\n  - org.postgresql:postgresql:42.3.8 (declared at worker/pom.xml:51; vulnerable range: >= 42.4.0, < 42.4.4; first patched: 42.4.4)\n  - org.postgresql:postgresql:42.3.8 (declared at worker/pom.xml:51; vulnerable range: >= 42.5.0, < 42.5.5; first patched: 42.5.5)\n  - org.postgresql:postgresql:42.3.8 (declared at worker/pom.xml:51; vulnerable range: >= 42.6.0, < 42.6.1; first patched: 42.6.1)\n  - org.postgresql:postgresql:42.3.8 (declared at worker/pom.xml:51; vulnerable range: >= 42.7.0, < 42.7.2; first patched: 42.7.2)\n",
+      "evidence": {
+        "files": [
+          "worker/pom.xml:51"
+        ],
+        "explanation": "[CVE-2024-1597](https://github.com/advisories/GHSA-24rp-q3w6-vc56): org.postgresql:postgresql vulnerable to SQL Injection via line comment generation\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.postgresql:postgresql:42.3.8 (declared at worker/pom.xml:51; vulnerable range: < 42.2.28; first patched: 42.2.28)\n  - org.postgresql:postgresql:42.3.8 (declared at worker/pom.xml:51; vulnerable range: >= 42.3.0, < 42.3.9; first patched: 42.3.9)\n  - org.postgresql:postgresql:42.3.8 (declared at worker/pom.xml:51; vulnerable range: >= 42.4.0, < 42.4.4; first patched: 42.4.4)\n  - org.postgresql:postgresql:42.3.8 (declared at worker/pom.xml:51; vulnerable range: >= 42.5.0, < 42.5.5; first patched: 42.5.5)\n  - org.postgresql:postgresql:42.3.8 (declared at worker/pom.xml:51; vulnerable range: >= 42.6.0, < 42.6.1; first patched: 42.6.1)\n  - org.postgresql:postgresql:42.3.8 (declared at worker/pom.xml:51; vulnerable range: >= 42.7.0, < 42.7.2; first patched: 42.7.2)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2024-22243",
+      "title": "Spring Web vulnerable to Open Redirect or Server Side Request Forgery",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2024-22243](https://github.com/advisories/GHSA-ccgv-vj62-xf9h): Spring Web vulnerable to Open Redirect or Server Side Request Forgery\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: >= 6.1.0, < 6.1.4; first patched: 6.1.4)\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: >= 6.0.0, < 6.0.17; first patched: 6.0.17)\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: >= 5.3.0, < 5.3.32; first patched: 5.3.32)\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: <= 5.2.25.RELEASE; first patched: N/A)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2024-22243](https://github.com/advisories/GHSA-ccgv-vj62-xf9h): Spring Web vulnerable to Open Redirect or Server Side Request Forgery\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: >= 6.1.0, < 6.1.4; first patched: 6.1.4)\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: >= 6.0.0, < 6.0.17; first patched: 6.0.17)\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: >= 5.3.0, < 5.3.32; first patched: 5.3.32)\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: <= 5.2.25.RELEASE; first patched: N/A)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2024-22259",
+      "title": "Spring Framework URL Parsing with Host Validation Vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2024-22259](https://github.com/advisories/GHSA-hgjh-9rj2-g67j): Spring Framework URL Parsing with Host Validation Vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: >= 6.1.0, < 6.1.5; first patched: 6.1.5)\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: >= 6.0.0, < 6.0.18; first patched: 6.0.18)\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: < 5.3.33; first patched: 5.3.33)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2024-22259](https://github.com/advisories/GHSA-hgjh-9rj2-g67j): Spring Framework URL Parsing with Host Validation Vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: >= 6.1.0, < 6.1.5; first patched: 6.1.5)\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: >= 6.0.0, < 6.0.18; first patched: 6.0.18)\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: < 5.3.33; first patched: 5.3.33)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2024-22262",
+      "title": "Spring Framework URL Parsing with Host Validation",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2024-22262](https://github.com/advisories/GHSA-2wrp-6fg6-hmc5): Spring Framework URL Parsing with Host Validation\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: < 5.3.34; first patched: 5.3.34)\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: >= 6.0.0, < 6.0.19; first patched: 6.0.19)\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: >= 6.1.0, < 6.1.6; first patched: 6.1.6)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2024-22262](https://github.com/advisories/GHSA-2wrp-6fg6-hmc5): Spring Framework URL Parsing with Host Validation\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: < 5.3.34; first patched: 5.3.34)\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: >= 6.0.0, < 6.0.19; first patched: 6.0.19)\n  - org.springframework:spring-web:5.3.31 (declared at pom.xml; vulnerable range: >= 6.1.0, < 6.1.6; first patched: 6.1.6)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2024-34750",
+      "title": "Apache Tomcat - Denial of Service",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2024-34750](https://github.com/advisories/GHSA-wm9w-rjj3-j356): Apache Tomcat - Denial of Service\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.0-M21; first patched: 11.0.0-M21)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.25; first patched: 10.1.25)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.0-M1, < 9.0.90; first patched: 9.0.90)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 8.5.0, <= 8.5.100; first patched: N/A)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2024-34750](https://github.com/advisories/GHSA-wm9w-rjj3-j356): Apache Tomcat - Denial of Service\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.0-M21; first patched: 11.0.0-M21)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.25; first patched: 10.1.25)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.0-M1, < 9.0.90; first patched: 9.0.90)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 8.5.0, <= 8.5.100; first patched: N/A)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2024-38816",
+      "title": "Path traversal vulnerability in functional web frameworks",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2024-38816](https://github.com/advisories/GHSA-cx7f-g6mp-7hqm): Path traversal vulnerability in functional web frameworks\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:5.3.31 (declared at pom.xml; vulnerable range: >= 6.1.0, < 6.1.13; first patched: 6.1.13)\n  - org.springframework:spring-webmvc:5.3.31 (declared at pom.xml; vulnerable range: >= 6.0.0, <= 6.0.23; first patched: N/A)\n  - org.springframework:spring-webmvc:5.3.31 (declared at pom.xml; vulnerable range: >= 5.3.0, <= 5.3.39; first patched: N/A)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2024-38816](https://github.com/advisories/GHSA-cx7f-g6mp-7hqm): Path traversal vulnerability in functional web frameworks\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:5.3.31 (declared at pom.xml; vulnerable range: >= 6.1.0, < 6.1.13; first patched: 6.1.13)\n  - org.springframework:spring-webmvc:5.3.31 (declared at pom.xml; vulnerable range: >= 6.0.0, <= 6.0.23; first patched: N/A)\n  - org.springframework:spring-webmvc:5.3.31 (declared at pom.xml; vulnerable range: >= 5.3.0, <= 5.3.39; first patched: N/A)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2024-38819",
+      "title": "Spring Framework Path Traversal vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2024-38819](https://github.com/advisories/GHSA-g5vr-rgqm-vf78): Spring Framework Path Traversal vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:5.3.31 (declared at pom.xml; vulnerable range: >= 6.1.0, < 6.1.14; first patched: 6.1.14)\n  - org.springframework:spring-webmvc:5.3.31 (declared at pom.xml; vulnerable range: <= 5.3.39; first patched: N/A)\n  - org.springframework:spring-webmvc:5.3.31 (declared at pom.xml; vulnerable range: >= 6.0.0, <= 6.0.23; first patched: N/A)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2024-38819](https://github.com/advisories/GHSA-g5vr-rgqm-vf78): Spring Framework Path Traversal vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:5.3.31 (declared at pom.xml; vulnerable range: >= 6.1.0, < 6.1.14; first patched: 6.1.14)\n  - org.springframework:spring-webmvc:5.3.31 (declared at pom.xml; vulnerable range: <= 5.3.39; first patched: N/A)\n  - org.springframework:spring-webmvc:5.3.31 (declared at pom.xml; vulnerable range: >= 6.0.0, <= 6.0.23; first patched: N/A)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2024-50379",
+      "title": "Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2024-50379](https://github.com/advisories/GHSA-5j33-cvvr-w245): Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.2; first patched: 11.0.2)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.34; first patched: 10.1.34)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.0.M1, < 9.0.98; first patched: 9.0.98)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 8.5.0, <= 8.5.100; first patched: N/A)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2024-50379](https://github.com/advisories/GHSA-5j33-cvvr-w245): Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.2; first patched: 11.0.2)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.34; first patched: 10.1.34)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.0.M1, < 9.0.98; first patched: 9.0.98)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 8.5.0, <= 8.5.100; first patched: N/A)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2024-56337",
+      "title": "Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2024-56337](https://github.com/advisories/GHSA-27hp-xhwr-wr2m): Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.2; first patched: 11.0.2)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.34; first patched: 10.1.34)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.0.M1, < 9.0.98; first patched: 9.0.98)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2024-56337](https://github.com/advisories/GHSA-27hp-xhwr-wr2m): Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.2; first patched: 11.0.2)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.34; first patched: 10.1.34)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.0.M1, < 9.0.98; first patched: 9.0.98)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-22235",
+      "title": "Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-22235](https://github.com/advisories/GHSA-rc42-6c7j-7h5r): Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: <= 2.7.24.2; first patched: N/A)\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: >= 3.1.0, <= 3.1.15.2; first patched: N/A)\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: >= 3.2.0, <= 3.2.13.2; first patched: N/A)\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: >= 3.3.0, <= 3.3.10; first patched: 3.3.11)\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: >= 3.4.0, <= 3.4.4; first patched: 3.4.5)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2025-22235](https://github.com/advisories/GHSA-rc42-6c7j-7h5r): Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: <= 2.7.24.2; first patched: N/A)\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: >= 3.1.0, <= 3.1.15.2; first patched: N/A)\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: >= 3.2.0, <= 3.2.13.2; first patched: N/A)\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: >= 3.3.0, <= 3.3.10; first patched: 3.3.11)\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: >= 3.4.0, <= 3.4.4; first patched: 3.4.5)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-24813",
+      "title": "Apache Tomcat: Potential RCE and/or information disclosure and/or information corruption with partial PUT",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-24813](https://github.com/advisories/GHSA-83qj-6fr2-vhqg): Apache Tomcat: Potential RCE and/or information disclosure and/or information corruption with partial PUT\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.3; first patched: 11.0.3)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.35; first patched: 10.1.35)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.0.M1, < 9.0.99; first patched: 9.0.99)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 8.5.0, <= 8.5.100; first patched: N/A)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2025-24813](https://github.com/advisories/GHSA-83qj-6fr2-vhqg): Apache Tomcat: Potential RCE and/or information disclosure and/or information corruption with partial PUT\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.3; first patched: 11.0.3)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.35; first patched: 10.1.35)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.0.M1, < 9.0.99; first patched: 9.0.99)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 8.5.0, <= 8.5.100; first patched: N/A)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-24970",
+      "title": "SslHandler doesn't correctly validate packets which can lead to native crash when using native SSLEngine",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-24970](https://github.com/advisories/GHSA-4g8c-wm8x-jfhw): SslHandler doesn't correctly validate packets which can lead to native crash when using native SSLEngine\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-handler:4.1.101.Final (declared at pom.xml; vulnerable range: >= 4.1.91.Final, <= 4.1.117.Final; first patched: 4.1.118.Final)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2025-24970](https://github.com/advisories/GHSA-4g8c-wm8x-jfhw): SslHandler doesn't correctly validate packets which can lead to native crash when using native SSLEngine\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-handler:4.1.101.Final (declared at pom.xml; vulnerable range: >= 4.1.91.Final, <= 4.1.117.Final; first patched: 4.1.118.Final)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-41249",
+      "title": "Spring Framework annotation detection mechanism may result in improper authorization",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-41249](https://github.com/advisories/GHSA-jmp9-x22r-554x): Spring Framework annotation detection mechanism may result in improper authorization\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-core:5.3.31 (declared at pom.xml; vulnerable range: >= 5.3.0, <= 5.3.44; first patched: N/A)\n  - org.springframework:spring-core:5.3.31 (declared at pom.xml; vulnerable range: >= 6.0.0, <= 6.1.22; first patched: N/A)\n  - org.springframework:spring-core:5.3.31 (declared at pom.xml; vulnerable range: >= 6.2.0, <= 6.2.10; first patched: 6.2.11)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2025-41249](https://github.com/advisories/GHSA-jmp9-x22r-554x): Spring Framework annotation detection mechanism may result in improper authorization\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-core:5.3.31 (declared at pom.xml; vulnerable range: >= 5.3.0, <= 5.3.44; first patched: N/A)\n  - org.springframework:spring-core:5.3.31 (declared at pom.xml; vulnerable range: >= 6.0.0, <= 6.1.22; first patched: N/A)\n  - org.springframework:spring-core:5.3.31 (declared at pom.xml; vulnerable range: >= 6.2.0, <= 6.2.10; first patched: 6.2.11)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-48988",
+      "title": "Apache Tomcat - DoS in multipart upload",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-48988](https://github.com/advisories/GHSA-h3gc-qfqq-6h8f): Apache Tomcat - DoS in multipart upload\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, <= 11.0.7; first patched: 11.0.8)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, <= 10.1.41; first patched: 10.1.42)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.0.M1, <= 9.0.105; first patched: 9.0.106)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 8.5.0, <= 8.5.100; first patched: N/A)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2025-48988](https://github.com/advisories/GHSA-h3gc-qfqq-6h8f): Apache Tomcat - DoS in multipart upload\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, <= 11.0.7; first patched: 11.0.8)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, <= 10.1.41; first patched: 10.1.42)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.0.M1, <= 9.0.105; first patched: 9.0.106)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 8.5.0, <= 8.5.100; first patched: N/A)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-48989",
+      "title": "Apache Tomcat Improper Resource Shutdown or Release vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-48989](https://github.com/advisories/GHSA-gqp3-2cvr-x8m3): Apache Tomcat Improper Resource Shutdown or Release vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.10; first patched: 11.0.10)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.44; first patched: 10.1.44)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.0.M1, < 9.0.108; first patched: 9.0.108)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2025-48989](https://github.com/advisories/GHSA-gqp3-2cvr-x8m3): Apache Tomcat Improper Resource Shutdown or Release vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.10; first patched: 11.0.10)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.44; first patched: 10.1.44)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.0.M1, < 9.0.108; first patched: 9.0.108)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-52520",
+      "title": "Apache Tomcat Catalina is vulnerable to DoS attack through bypassing of size limits",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-52520](https://github.com/advisories/GHSA-wr62-c79q-cv37): Apache Tomcat Catalina is vulnerable to DoS attack through bypassing of size limits\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.9; first patched: 11.0.9)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.43; first patched: 10.1.43)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.0.M1, < 9.0.107; first patched: 9.0.107)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 8.5.0, <= 8.5.100; first patched: N/A)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2025-52520](https://github.com/advisories/GHSA-wr62-c79q-cv37): Apache Tomcat Catalina is vulnerable to DoS attack through bypassing of size limits\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.9; first patched: 11.0.9)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.43; first patched: 10.1.43)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.0.M1, < 9.0.107; first patched: 9.0.107)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 8.5.0, <= 8.5.100; first patched: N/A)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-52999",
+      "title": "jackson-core can throw a StackoverflowError when processing deeply nested data",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-52999](https://github.com/advisories/GHSA-h46c-h94j-95f3): jackson-core can throw a StackoverflowError when processing deeply nested data\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-core:2.13.5 (declared at pom.xml; vulnerable range: < 2.15.0; first patched: 2.15.0)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2025-52999](https://github.com/advisories/GHSA-h46c-h94j-95f3): jackson-core can throw a StackoverflowError when processing deeply nested data\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-core:2.13.5 (declared at pom.xml; vulnerable range: < 2.15.0; first patched: 2.15.0)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-53506",
+      "title": "Apache Tomcat Coyote vulnerable to Denial of Service via excessive HTTP/2 streams",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-53506](https://github.com/advisories/GHSA-25xr-qj8w-c4vf): Apache Tomcat Coyote vulnerable to Denial of Service via excessive HTTP/2 streams\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 8.5.0, <= 8.5.100; first patched: N/A)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.0.M1, < 9.0.107; first patched: 9.0.107)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.43; first patched: 10.1.43)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.9; first patched: 11.0.9)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2025-53506](https://github.com/advisories/GHSA-25xr-qj8w-c4vf): Apache Tomcat Coyote vulnerable to Denial of Service via excessive HTTP/2 streams\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 8.5.0, <= 8.5.100; first patched: N/A)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.0.M1, < 9.0.107; first patched: 9.0.107)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.43; first patched: 10.1.43)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.9; first patched: 11.0.9)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-55163",
+      "title": "Netty affected by MadeYouReset HTTP/2 DDoS vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-55163](https://github.com/advisories/GHSA-prj3-ccx8-p6x4): Netty affected by MadeYouReset HTTP/2 DDoS vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http2:4.1.101.Final (declared at pom.xml; vulnerable range: >= 4.2.0.Alpha1, <= 4.2.3.Final; first patched: 4.2.4.Final)\n  - io.netty:netty-codec-http2:4.1.101.Final (declared at pom.xml; vulnerable range: <= 4.1.123.Final; first patched: 4.1.124.Final)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2025-55163](https://github.com/advisories/GHSA-prj3-ccx8-p6x4): Netty affected by MadeYouReset HTTP/2 DDoS vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http2:4.1.101.Final (declared at pom.xml; vulnerable range: >= 4.2.0.Alpha1, <= 4.2.3.Final; first patched: 4.2.4.Final)\n  - io.netty:netty-codec-http2:4.1.101.Final (declared at pom.xml; vulnerable range: <= 4.1.123.Final; first patched: 4.1.124.Final)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-55752",
+      "title": "Apache Tomcat Vulnerable to Relative Path Traversal",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-55752](https://github.com/advisories/GHSA-wmwf-9ccg-fff5): Apache Tomcat Vulnerable to Relative Path Traversal\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.11; first patched: 11.0.11)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.45; first patched: 10.1.45)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.0-M11, < 9.0.109; first patched: 9.0.109)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 8.5.6, <= 8.5.100; first patched: N/A)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2025-55752](https://github.com/advisories/GHSA-wmwf-9ccg-fff5): Apache Tomcat Vulnerable to Relative Path Traversal\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.11; first patched: 11.0.11)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.45; first patched: 10.1.45)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.0-M11, < 9.0.109; first patched: 9.0.109)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 8.5.6, <= 8.5.100; first patched: N/A)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-0603",
+      "title": "Hibernate vulnerable to SQL Injection",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-0603](https://github.com/advisories/GHSA-2p5w-cvg5-gc5c): Hibernate vulnerable to SQL Injection\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.hibernate:hibernate-core:5.6.15.Final (declared at pom.xml; vulnerable range: >= 5.2.8, <= 5.6.15; first patched: N/A)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2026-0603](https://github.com/advisories/GHSA-2p5w-cvg5-gc5c): Hibernate vulnerable to SQL Injection\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.hibernate:hibernate-core:5.6.15.Final (declared at pom.xml; vulnerable range: >= 5.2.8, <= 5.6.15; first patched: N/A)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-24400",
+      "title": "AssertJ has XML External Entity (XXE) vulnerability when parsing untrusted XML via isXmlEqualTo assertion",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-24400](https://github.com/advisories/GHSA-rqfh-9r24-8c9r): AssertJ has XML External Entity (XXE) vulnerability when parsing untrusted XML via isXmlEqualTo assertion\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.assertj:assertj-core:3.22.0 (declared at pom.xml; vulnerable range: >= 1.4.0, <= 3.27.6; first patched: 3.27.7)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2026-24400](https://github.com/advisories/GHSA-rqfh-9r24-8c9r): AssertJ has XML External Entity (XXE) vulnerability when parsing untrusted XML via isXmlEqualTo assertion\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.assertj:assertj-core:3.22.0 (declared at pom.xml; vulnerable range: >= 1.4.0, <= 3.27.6; first patched: 3.27.7)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-24734",
+      "title": "Apache Tomcat has an Improper Input Validation vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-24734](https://github.com/advisories/GHSA-mgp5-rv84-w37q): Apache Tomcat has an Improper Input Validation vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.18; first patched: 11.0.18)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M7, < 10.1.52; first patched: 10.1.52)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.83, < 9.0.115; first patched: 9.0.115)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2026-24734](https://github.com/advisories/GHSA-mgp5-rv84-w37q): Apache Tomcat has an Improper Input Validation vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.18; first patched: 11.0.18)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M7, < 10.1.52; first patched: 10.1.52)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.83, < 9.0.115; first patched: 9.0.115)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-29145",
+      "title": "Apache Tomcat: CLIENT_CERT authentication does not fail as expected",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-29145](https://github.com/advisories/GHSA-95jq-rwvf-vjx4): Apache Tomcat: CLIENT_CERT authentication does not fail as expected\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.83, < 9.0.116; first patched: 9.0.116)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M7, < 10.1.53; first patched: 10.1.53)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.20; first patched: 11.0.20)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2026-29145](https://github.com/advisories/GHSA-95jq-rwvf-vjx4): Apache Tomcat: CLIENT_CERT authentication does not fail as expected\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.83, < 9.0.116; first patched: 9.0.116)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M7, < 10.1.53; first patched: 10.1.53)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.20; first patched: 11.0.20)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-33870",
+      "title": "Netty: HTTP Request Smuggling via Chunked Extension Quoted-String Parsing",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-33870](https://github.com/advisories/GHSA-pwqr-wmgm-9rr8): Netty: HTTP Request Smuggling via Chunked Extension Quoted-String Parsing\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http:4.1.101.Final (declared at pom.xml; vulnerable range: < 4.1.132.Final; first patched: 4.1.132.Final)\n  - io.netty:netty-codec-http:4.1.101.Final (declared at pom.xml; vulnerable range: >= 4.2.0.Alpha1, < 4.2.10.Final; first patched: 4.2.10.Final)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2026-33870](https://github.com/advisories/GHSA-pwqr-wmgm-9rr8): Netty: HTTP Request Smuggling via Chunked Extension Quoted-String Parsing\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http:4.1.101.Final (declared at pom.xml; vulnerable range: < 4.1.132.Final; first patched: 4.1.132.Final)\n  - io.netty:netty-codec-http:4.1.101.Final (declared at pom.xml; vulnerable range: >= 4.2.0.Alpha1, < 4.2.10.Final; first patched: 4.2.10.Final)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-33871",
+      "title": "Netty HTTP/2 CONTINUATION Frame Flood DoS via Zero-Byte Frame Bypass",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-33871](https://github.com/advisories/GHSA-w9fj-cfpg-grvv): Netty HTTP/2 CONTINUATION Frame Flood DoS via Zero-Byte Frame Bypass\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http2:4.1.101.Final (declared at pom.xml; vulnerable range: < 4.1.132.Final; first patched: 4.1.132.Final)\n  - io.netty:netty-codec-http2:4.1.101.Final (declared at pom.xml; vulnerable range: >= 4.2.0.Alpha1, < 4.2.10.Final; first patched: 4.2.11.Final)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2026-33871](https://github.com/advisories/GHSA-w9fj-cfpg-grvv): Netty HTTP/2 CONTINUATION Frame Flood DoS via Zero-Byte Frame Bypass\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http2:4.1.101.Final (declared at pom.xml; vulnerable range: < 4.1.132.Final; first patched: 4.1.132.Final)\n  - io.netty:netty-codec-http2:4.1.101.Final (declared at pom.xml; vulnerable range: >= 4.2.0.Alpha1, < 4.2.10.Final; first patched: 4.2.11.Final)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-34483",
+      "title": "Apache Tomcat has an Improper Encoding or Escaping of Output vulnerability in the JsonAccessLogValve",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-34483](https://github.com/advisories/GHSA-rv64-5gf8-9qq8): Apache Tomcat has an Improper Encoding or Escaping of Output vulnerability in the JsonAccessLogValve\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.40, < 9.0.116; first patched: 9.0.116)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.54; first patched: 10.1.54)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.21; first patched: 11.0.21)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2026-34483](https://github.com/advisories/GHSA-rv64-5gf8-9qq8): Apache Tomcat has an Improper Encoding or Escaping of Output vulnerability in the JsonAccessLogValve\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.40, < 9.0.116; first patched: 9.0.116)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.54; first patched: 10.1.54)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.21; first patched: 11.0.21)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-34487",
+      "title": "Apache Tomcat vulnerable to Insertion of Sensitive Information into Log File",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-34487](https://github.com/advisories/GHSA-x4m4-345f-5h5g): Apache Tomcat vulnerable to Insertion of Sensitive Information into Log File\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.13, < 9.0.117; first patched: 9.0.117)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.54; first patched: 10.1.54)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.21; first patched: 11.0.21)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2026-34487](https://github.com/advisories/GHSA-x4m4-345f-5h5g): Apache Tomcat vulnerable to Insertion of Sensitive Information into Log File\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 9.0.13, < 9.0.117; first patched: 9.0.117)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 10.1.0-M1, < 10.1.54; first patched: 10.1.54)\n  - org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (declared at pom.xml; vulnerable range: >= 11.0.0-M1, < 11.0.21; first patched: 11.0.21)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-40477",
+      "title": "Improper restriction of the scope of accessible objects in Thymeleaf expressions",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-40477](https://github.com/advisories/GHSA-r4v4-5mwr-2fwr): Improper restriction of the scope of accessible objects in Thymeleaf expressions\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.thymeleaf:thymeleaf:3.0.15.RELEASE (declared at pom.xml; vulnerable range: <= 3.1.3.RELEASE; first patched: 3.1.4.RELEASE)\n  - org.thymeleaf:thymeleaf-spring5:3.0.15.RELEASE (declared at pom.xml; vulnerable range: <= 3.1.3.RELEASE; first patched: 3.1.4.RELEASE)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2026-40477](https://github.com/advisories/GHSA-r4v4-5mwr-2fwr): Improper restriction of the scope of accessible objects in Thymeleaf expressions\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.thymeleaf:thymeleaf:3.0.15.RELEASE (declared at pom.xml; vulnerable range: <= 3.1.3.RELEASE; first patched: 3.1.4.RELEASE)\n  - org.thymeleaf:thymeleaf-spring5:3.0.15.RELEASE (declared at pom.xml; vulnerable range: <= 3.1.3.RELEASE; first patched: 3.1.4.RELEASE)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-40478",
+      "title": "Improper neutralization of specific syntax patterns for unauthorized expressions in Thymeleaf",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-40478](https://github.com/advisories/GHSA-xjw8-8c5c-9r79): Improper neutralization of specific syntax patterns for unauthorized expressions in Thymeleaf\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.thymeleaf:thymeleaf:3.0.15.RELEASE (declared at pom.xml; vulnerable range: <= 3.1.3.RELEASE; first patched: 3.1.4.RELEASE)\n  - org.thymeleaf:thymeleaf-spring5:3.0.15.RELEASE (declared at pom.xml; vulnerable range: <= 3.1.3.RELEASE; first patched: 3.1.4.RELEASE)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2026-40478](https://github.com/advisories/GHSA-xjw8-8c5c-9r79): Improper neutralization of specific syntax patterns for unauthorized expressions in Thymeleaf\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.thymeleaf:thymeleaf:3.0.15.RELEASE (declared at pom.xml; vulnerable range: <= 3.1.3.RELEASE; first patched: 3.1.4.RELEASE)\n  - org.thymeleaf:thymeleaf-spring5:3.0.15.RELEASE (declared at pom.xml; vulnerable range: <= 3.1.3.RELEASE; first patched: 3.1.4.RELEASE)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-40972",
+      "title": "Spring Boot DevTools remote secret comparison is vulnerable to timing attacks",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-40972](https://github.com/advisories/GHSA-56v8-86gj-66jp): Spring Boot DevTools remote secret comparison is vulnerable to timing attacks\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot-devtools:2.7.18 (declared at web/pom.xml:37; vulnerable range: >= 4.0.0, < 4.0.6; first patched: 4.0.6)\n  - org.springframework.boot:spring-boot-devtools:2.7.18 (declared at web/pom.xml:37; vulnerable range: >= 3.5.0, < 3.5.14; first patched: 3.5.14)\n  - org.springframework.boot:spring-boot-devtools:2.7.18 (declared at web/pom.xml:37; vulnerable range: >= 3.4.0, <= 3.4.15; first patched: N/A)\n  - org.springframework.boot:spring-boot-devtools:2.7.18 (declared at web/pom.xml:37; vulnerable range: >= 3.3.0, <= 3.3.18; first patched: N/A)\n  - org.springframework.boot:spring-boot-devtools:2.7.18 (declared at web/pom.xml:37; vulnerable range: <= 2.7.32; first patched: N/A)\n",
+      "evidence": {
+        "files": [
+          "web/pom.xml:37"
+        ],
+        "explanation": "[CVE-2026-40972](https://github.com/advisories/GHSA-56v8-86gj-66jp): Spring Boot DevTools remote secret comparison is vulnerable to timing attacks\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot-devtools:2.7.18 (declared at web/pom.xml:37; vulnerable range: >= 4.0.0, < 4.0.6; first patched: 4.0.6)\n  - org.springframework.boot:spring-boot-devtools:2.7.18 (declared at web/pom.xml:37; vulnerable range: >= 3.5.0, < 3.5.14; first patched: 3.5.14)\n  - org.springframework.boot:spring-boot-devtools:2.7.18 (declared at web/pom.xml:37; vulnerable range: >= 3.4.0, <= 3.4.15; first patched: N/A)\n  - org.springframework.boot:spring-boot-devtools:2.7.18 (declared at web/pom.xml:37; vulnerable range: >= 3.3.0, <= 3.3.18; first patched: N/A)\n  - org.springframework.boot:spring-boot-devtools:2.7.18 (declared at web/pom.xml:37; vulnerable range: <= 2.7.32; first patched: N/A)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-40973",
+      "title": "Spring Boot accepts predictable temp directory without ownership verification",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-40973](https://github.com/advisories/GHSA-wwpq-f5c3-7hvx): Spring Boot accepts predictable temp directory without ownership verification\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: >= 4.0.0, < 4.0.6; first patched: 4.0.6)\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: >= 3.5.0, < 3.5.14; first patched: 3.5.14)\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: >= 3.4.0, <= 3.4.15; first patched: N/A)\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: >= 3.3.0, <= 3.3.18; first patched: N/A)\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: <= 2.7.32; first patched: N/A)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2026-40973](https://github.com/advisories/GHSA-wwpq-f5c3-7hvx): Spring Boot accepts predictable temp directory without ownership verification\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: >= 4.0.0, < 4.0.6; first patched: 4.0.6)\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: >= 3.5.0, < 3.5.14; first patched: 3.5.14)\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: >= 3.4.0, <= 3.4.15; first patched: N/A)\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: >= 3.3.0, <= 3.3.18; first patched: N/A)\n  - org.springframework.boot:spring-boot:2.7.18 (declared at pom.xml; vulnerable range: <= 2.7.32; first patched: N/A)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41901",
+      "title": "Sandboxed Thymeleaf expressions vulnerable to improper recognition of unauthorized syntax patterns",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-41901](https://github.com/advisories/GHSA-c9ph-gxww-7744): Sandboxed Thymeleaf expressions vulnerable to improper recognition of unauthorized syntax patterns\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.thymeleaf:thymeleaf:3.0.15.RELEASE (declared at pom.xml; vulnerable range: <= 3.1.4.RELEASE; first patched: 3.1.5.RELEASE)\n  - org.thymeleaf:thymeleaf-spring5:3.0.15.RELEASE (declared at pom.xml; vulnerable range: <= 3.1.4.RELEASE; first patched: 3.1.5.RELEASE)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2026-41901](https://github.com/advisories/GHSA-c9ph-gxww-7744): Sandboxed Thymeleaf expressions vulnerable to improper recognition of unauthorized syntax patterns\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.thymeleaf:thymeleaf:3.0.15.RELEASE (declared at pom.xml; vulnerable range: <= 3.1.4.RELEASE; first patched: 3.1.5.RELEASE)\n  - org.thymeleaf:thymeleaf-spring5:3.0.15.RELEASE (declared at pom.xml; vulnerable range: <= 3.1.4.RELEASE; first patched: 3.1.5.RELEASE)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-42198",
+      "title": "pgjdbc: Unbounded PBKDF2 iterations in SCRAM authentication allows CPU exhaustion DoS",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-42198](https://github.com/advisories/GHSA-98qh-xjc8-98pq): pgjdbc: Unbounded PBKDF2 iterations in SCRAM authentication allows CPU exhaustion DoS\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.postgresql:postgresql:42.3.8 (declared at worker/pom.xml:51; vulnerable range: >= 42.2.0, < 42.7.11; first patched: 42.7.11)\n",
+      "evidence": {
+        "files": [
+          "worker/pom.xml:51"
+        ],
+        "explanation": "[CVE-2026-42198](https://github.com/advisories/GHSA-98qh-xjc8-98pq): pgjdbc: Unbounded PBKDF2 iterations in SCRAM authentication allows CPU exhaustion DoS\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.postgresql:postgresql:42.3.8 (declared at worker/pom.xml:51; vulnerable range: >= 42.2.0, < 42.7.11; first patched: 42.7.11)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-42583",
+      "title": "Netty Lz4FrameDecoder is vulnerable to resource exhaustion ",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-42583](https://github.com/advisories/GHSA-mj4r-2hfc-f8p6): Netty Lz4FrameDecoder is vulnerable to resource exhaustion \n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec:4.1.101.Final (declared at pom.xml; vulnerable range: <= 4.1.132.Final; first patched: 4.1.133.Final)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2026-42583](https://github.com/advisories/GHSA-mj4r-2hfc-f8p6): Netty Lz4FrameDecoder is vulnerable to resource exhaustion \n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec:4.1.101.Final (declared at pom.xml; vulnerable range: <= 4.1.132.Final; first patched: 4.1.133.Final)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-42584",
+      "title": "Netty has HttpClientCodec response desynchronization",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-42584](https://github.com/advisories/GHSA-57rv-r2g8-2cj3): Netty has HttpClientCodec response desynchronization\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http:4.1.101.Final (declared at pom.xml; vulnerable range: >= 4.2.0.Alpha1, <= 4.2.12.Final; first patched: 4.2.13.Final)\n  - io.netty:netty-codec-http:4.1.101.Final (declared at pom.xml; vulnerable range: <= 4.1.132.Final; first patched: 4.1.133.Final)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2026-42584](https://github.com/advisories/GHSA-57rv-r2g8-2cj3): Netty has HttpClientCodec response desynchronization\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http:4.1.101.Final (declared at pom.xml; vulnerable range: >= 4.2.0.Alpha1, <= 4.2.12.Final; first patched: 4.2.13.Final)\n  - io.netty:netty-codec-http:4.1.101.Final (declared at pom.xml; vulnerable range: <= 4.1.132.Final; first patched: 4.1.133.Final)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-42587",
+      "title": "Netty: HttpContentDecompressor maxAllocation bypass when Content-Encoding set to br/zstd/snappy leads to decompression bomb DoS",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-42587](https://github.com/advisories/GHSA-f6hv-jmp6-3vwv): Netty: HttpContentDecompressor maxAllocation bypass when Content-Encoding set to br/zstd/snappy leads to decompression bomb DoS\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http:4.1.101.Final (declared at pom.xml; vulnerable range: >= 4.2.0.Alpha1, <= 4.2.12.Final; first patched: 4.2.13.Final)\n  - io.netty:netty-codec-http2:4.1.101.Final (declared at pom.xml; vulnerable range: >= 4.2.0.Alpha1, <= 4.2.12.Final; first patched: 4.2.13.Final)\n  - io.netty:netty-codec-http:4.1.101.Final (declared at pom.xml; vulnerable range: <= 4.1.132.Final; first patched: 4.1.133.Final)\n  - io.netty:netty-codec-http2:4.1.101.Final (declared at pom.xml; vulnerable range: <= 4.1.132.Final; first patched: 4.1.133.Final)\n",
+      "evidence": {
+        "files": [
+          "pom.xml"
+        ],
+        "explanation": "[CVE-2026-42587](https://github.com/advisories/GHSA-f6hv-jmp6-3vwv): Netty: HttpContentDecompressor maxAllocation bypass when Content-Encoding set to br/zstd/snappy leads to decompression bomb DoS\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec-http:4.1.101.Final (declared at pom.xml; vulnerable range: >= 4.2.0.Alpha1, <= 4.2.12.Final; first patched: 4.2.13.Final)\n  - io.netty:netty-codec-http2:4.1.101.Final (declared at pom.xml; vulnerable range: >= 4.2.0.Alpha1, <= 4.2.12.Final; first patched: 4.2.13.Final)\n  - io.netty:netty-codec-http:4.1.101.Final (declared at pom.xml; vulnerable range: <= 4.1.132.Final; first patched: 4.1.133.Final)\n  - io.netty:netty-codec-http2:4.1.101.Final (declared at pom.xml; vulnerable range: <= 4.1.132.Final; first patched: 4.1.133.Final)\n"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CWE-259",
+      "title": "Use of Hard-coded Password",
+      "category": "Credentials & Secrets",
+      "severity": "optional",
+      "description": "The product contains a hard-coded password, which it uses for its own inbound authentication or for outbound communication to external components.",
+      "evidence": {
+        "files": [
+          "web/src/main/resources/application.properties",
+          "worker/src/main/resources/application.properties"
+        ],
+        "explanation": "Database and broker passwords are configured as static literals (`spring.datasource.password=postgres`, `spring.rabbitmq.password=guest`) in both web and worker application.properties files."
+      },
+      "storyPoint": 5
+    },
+    {
+      "id": "CWE-321",
+      "title": "Use of Hard-coded Cryptographic Key",
+      "category": "Credentials & Secrets",
+      "severity": "potential",
+      "description": "The product uses a hard-coded, unchangeable cryptographic key.",
+      "evidence": {
+        "files": [
+          "web/src/main/resources/application.properties",
+          "worker/src/main/resources/application.properties"
+        ],
+        "explanation": "AWS secret key values are embedded directly in configuration files (`aws.secretKey=your-secret-key`) instead of external secret management."
+      },
+      "storyPoint": 5
+    },
+    {
+      "id": "CWE-798",
+      "title": "Use of Hard-coded Credentials",
+      "category": "Credentials & Secrets",
+      "severity": "optional",
+      "description": "The product contains hard-coded credentials, such as a password or cryptographic key.",
+      "evidence": {
+        "files": [
+          "web/src/main/resources/application.properties",
+          "worker/src/main/resources/application.properties"
+        ],
+        "explanation": "Multiple credentials are hard-coded in plain text (AWS access key placeholders, RabbitMQ username/password, PostgreSQL username/password)."
+      },
+      "storyPoint": 5
+    },
+    {
+      "id": "CWE-22",
+      "title": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')",
+      "category": "File & Path Security",
+      "severity": "optional",
+      "description": "The product uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory, but the product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location that is outside of the restricted directory.",
+      "evidence": {
+        "files": [
+          "worker/src/main/java/com/microsoft/migration/assets/worker/service/LocalFileProcessingService.java",
+          "web/src/main/java/com/microsoft/migration/assets/service/LocalFileStorageService.java"
+        ],
+        "explanation": "External key input is directly resolved into filesystem paths via rootLocation.resolve(key) in LocalFileProcessingService.downloadOriginal (line 38) and LocalFileStorageService.getObject/deleteObject (lines 110 and 120) without canonical path boundary checks against rootLocation."
+      },
+      "storyPoint": 8
+    },
+    {
+      "id": "CWE-23",
+      "title": "Relative Path Traversal",
+      "category": "File & Path Security",
+      "severity": "optional",
+      "description": "The product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize sequences such as .. that can resolve to a location that is outside of that directory.",
+      "evidence": {
+        "files": [
+          "worker/src/main/java/com/microsoft/migration/assets/worker/service/LocalFileProcessingService.java",
+          "web/src/main/java/com/microsoft/migration/assets/service/LocalFileStorageService.java"
+        ],
+        "explanation": "Relative traversal sequences in the key parameter can reach file operations because key values are used directly in rootLocation.resolve(key) for reads/deletes. The key path variable originates from controller endpoints (/view/{key}, /delete/{key}) and is not normalized/validated before those operations."
+      },
+      "storyPoint": 5
+    },
+    {
+      "id": "CWE-36",
+      "title": "Absolute Path Traversal",
+      "category": "File & Path Security",
+      "severity": "optional",
+      "description": "The product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize absolute path sequences such as /abs/path that can resolve to a location that is outside of that directory.",
+      "evidence": {
+        "files": [
+          "web/src/main/java/com/microsoft/migration/assets/service/LocalFileStorageService.java",
+          "worker/src/main/java/com/microsoft/migration/assets/worker/service/LocalFileProcessingService.java"
+        ],
+        "explanation": "Absolute path key values can bypass the intended storage root because Path.resolve returns the absolute input path as-is. File operations in LocalFileStorageService.getObject/deleteObject and LocalFileProcessingService.downloadOriginal then operate on that resolved path without enforcing rootLocation prefix checks."
+      },
+      "storyPoint": 5
+    },
+    {
+      "id": "CWE-434",
+      "title": "Unrestricted Upload of File with Dangerous Type",
+      "category": "File & Path Security",
+      "severity": "mandatory",
+      "description": "The product allows the upload or transfer of dangerous file types that are automatically processed within its environment.",
+      "evidence": {
+        "files": [
+          "web/src/main/java/com/microsoft/migration/assets/controller/S3Controller.java",
+          "web/src/main/java/com/microsoft/migration/assets/service/LocalFileStorageService.java",
+          "worker/src/main/java/com/microsoft/migration/assets/worker/service/AbstractFileProcessingService.java"
+        ],
+        "explanation": "The upload endpoint accepts arbitrary MultipartFile input and stores it without extension or MIME allowlisting (S3Controller.uploadObject -> LocalFileStorageService.uploadObject). Uploaded files are then automatically processed by image worker logic (AbstractFileProcessingService.processImage/generateThumbnail)."
+      },
+      "storyPoint": 8
+    },
+    {
+      "id": "CWE-99",
+      "title": "Improper Control of Resource Identifiers ('Resource Injection')",
+      "category": "Injection Attacks",
+      "severity": "potential",
+      "description": "The product receives input from an upstream component, but it does not restrict or incorrectly restricts the input before it is used as an identifier for a resource that may be outside the intended sphere of control.",
+      "evidence": {
+        "files": [
+          "web/src/main/java/com/microsoft/migration/assets/controller/S3Controller.java",
+          "web/src/main/java/com/microsoft/migration/assets/service/LocalFileStorageService.java",
+          "web/src/main/java/com/microsoft/migration/assets/service/AwsS3Service.java"
+        ],
+        "explanation": "Resource identifiers from user-controlled path variables (key) are directly passed to storage operations (view/delete) and backend services without restrictive validation. This allows selection of arbitrary object keys/resources in LocalFileStorageService.getObject/deleteObject and AwsS3Service.getObject/deleteObject call paths."
+      },
+      "storyPoint": 3
+    }
+  ]
+}
