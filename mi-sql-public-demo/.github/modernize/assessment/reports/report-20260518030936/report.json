@@ -1,0 +1,11 @@
+{
+  "metadata": {
+    "analysisStartTime": "2026-05-18T03:09:36.0000000Z",
+    "reportId": "20260518030936",
+    "workspacePath": "mi-sql-public-demo",
+    "assessment": "core",
+    "note": "Assessment skill executed for scoped workspace."
+  },
+  "issues": [],
+  "security": []
+}
